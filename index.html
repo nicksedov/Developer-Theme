@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head >
     <title>Online portfolio by Nikolay Sedov</title>
     <!-- Meta -->
     <meta charset="utf-8">
@@ -45,16 +45,28 @@
 		                    <li class="list-inline-item"><a href="https://twitter.com/n_a_sedov"><i class="fab fa-twitter"></i></a></li>
 		                    <li class="list-inline-item"><a href="https://github.com/nicksedov"><i class="fab fa-github-alt"></i></a></li>
                             <li class="list-inline-item"><a href="https://t.me/nicksedov"><i class="fab fa-telegram"></i></a></li>
+                            <li class="list-inline-item"><a href="mailto:nikolay@sedov.ydns.eu"><i class="far fa-envelope"></i></a></li>
 		                </ul>
 		            </div><!--//profile-->
 			    </div><!--//col-->
-	            <div class="col-12 col-md-auto">
-		            <div class="dark-mode-switch d-flex">
-						<div class="form-check form-switch mx-auto mx-md-0">
-							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" checked/>
-							<label class="custom-control-label" for="darkSwitch">Dark Theme</label>
-						</div>
-			        </div><!--//dark-mode-switch-->
+	            <div class="col-10 col-md-auto">
+                    <div class="d-flex flex-row">
+                        <div class="me-4">
+                            <a href="#" onclick="window.print();"><i class="fa fa-print"></i></a>
+                            <input type="hidden" id="printer">
+                            <label class="custom-control-label" for="darkSwitch">Print</label>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <input type="hidden" id="beforeDarkSwitch">
+                            <label class="custom-control-label me-2" for="beforeDarkSwitch"><i class="fa fa-sun"></i></label>
+                        </div>
+                        <div class="dark-mode-switch d-flex">
+                            <div class="form-check form-switch mx-auto mx-md-0">
+                                <input type="checkbox" class="form-check-input me-2" id="darkSwitch" checked/>
+                                <label class="custom-control-label" for="darkSwitch"><i class="fa fa-moon"></i></label>
+                            </div>
+                        </div><!--//dark-mode-switch-->
+                    </div>
 	            </div><!--//col-->
 	        </div><!--//row-->
         </div><!--//container-->
@@ -104,7 +116,7 @@
                             <hr class="divider" />
                             <div class="item row">
                                 <a class="col-md-4 col-12" href="https://www.sberbank.ru/ru/legal/sberconnect_API" target="_blank" rel="noopener">
-                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-sbc-api.jpg" alt="SberConnect API" />
+                                <img class="img-fluid project-image rounded-1 shadow-sm" src="assets/images/projects/project-sbc-api.jpg" alt="SberConnect API" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="https://www.sberbank.ru/ru/legal/sberconnect_API" target="_blank" rel="noopener">SberConnect API</a></h3>
@@ -117,7 +129,7 @@
 
                             <div class="item row">
                                 <a class="col-md-4 col-12" href="https://www.diasoft.ru/banks/products/flextera/" target="_blank" rel="noopener">
-                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/diasoft.svg" alt="Diasoft Flextera" />
+                                <img class="img-fluid project-image rounded-1 shadow-sm" src="assets/images/projects/diasoft.svg" alt="Diasoft Flextera" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="https://www.diasoft.ru/banks/products/flextera/" target="_blank" rel="noopener">Diasoft Flextera - Fintech Platform</a></h3>
@@ -136,18 +148,56 @@
                         <div class="content">
                             <div class="item">
                                 <h3 class="title">Lead Developer/Team Leader - <span class="place"><a href="https://www.sber.ru">Sberbank Russia</a></span> <span class="year">(2017 - Present)</span></h3>
-                                <p></p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;FinTech</small>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;Banking</small>
+                                    </li>
+                                </ul>
                             </div><!--//item-->
                             <div class="item">
                                 <h3 class="title">Senior Software Engineer - <span class="place"><a href="https://www.sber.ru">Sberbank Russia</a></span> <span class="year">(2015 - 2017)</span></h3>
-                                <p></p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;FinTech</small>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;Banking</small>
+                                    </li>
+                                </ul>
                             </div><!--//item-->
 
                             <div class="item">
-                                <h3 class="title">Software Engineer - <span class="place"><a href="#">Diasoft</a></span> <span class="year">(2010 - 2015)</span></h3>
-                                <p></p>
+                                <h3 class="title">Software Engineer (Java) - <span class="place"><a href="https://www.diasoft.ru">Diasoft</a></span> <span class="year">(2010 - 2015)</span></h3>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;FinTech</small>
+                                    </li>
+                                </ul>
                             </div><!--//item-->
 
+                            <div class="item">
+                                <h3 class="title">Software Engineer (Java) - <span class="place"><a href="https://www.amdocs.com">Amdocs</a></span> <span class="year">(2007 - 2010)</span></h3>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;Telecommunications</small>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;Networking</small>
+                                    </li>
+                                </ul>
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="title">Software Engineer (C/C++) - <span class="place"><a href="https://www.lg.com/ru">LG Electronics</a></span> <span class="year">(2005 - 2007)</span></h3>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;Telecommunications</small>
+                                    </li>
+                                </ul>
+                            </div><!--//item-->
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </section><!--//section-->
@@ -228,9 +278,6 @@
                                 </blockquote>
                                 <p class="source"><span class="name">Pavel Sedov</span><br /><span class="title">Head of business department</span></p>
                             </div><!--//item-->
-
-                            <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p>
-
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
