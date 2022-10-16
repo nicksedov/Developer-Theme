@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head >
-    <title>Online portfolio by Nikolay Sedov</title>
+<head>
+    <title>Nikolay Sedov - Portfolio</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +11,8 @@
     <meta name="author" content="Nikolay Sedov at Sberbank">
     <link rel="shortcut icon" href="favicon.ico">
 
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet'
+          type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
     <!-- FontAwesome JS -->
@@ -29,348 +30,453 @@
 </head>
 
 <body>
-    <!-- ******HEADER****** -->
-    <header class="header">
-        <div class="container">
-	        <div class="row align-items-start">
-			    <div class="col">
-		            <!--img class="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.png" alt="profile image" /-->
-                    <img class="profile-image img-fluid float-start rounded-circle" style="width: 180px; height: auto" src="assets/images/profile.jpg" alt="profile image" />
-                    <div class="profile-content">
-		                <h1 class="name">Nikolay Sedov</h1>
-		                <h2 class="desc">Team Leader</h2>
-		                <ul class="social list-inline">
-                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/nikolay-sedov-16706366"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li class="list-inline-item"><a href="https://www.facebook.com/nikolay.sedov.98"><i class="fab fa-facebook"></i></a></li>
-		                    <li class="list-inline-item"><a href="https://twitter.com/n_a_sedov"><i class="fab fa-twitter"></i></a></li>
-		                    <li class="list-inline-item"><a href="https://github.com/nicksedov"><i class="fab fa-github-alt"></i></a></li>
-                            <li class="list-inline-item"><a href="https://t.me/nicksedov"><i class="fab fa-telegram"></i></a></li>
-                            <li class="list-inline-item"><a href="mailto:nikolay@sedov.ydns.eu"><i class="far fa-envelope"></i></a></li>
-		                </ul>
-		            </div><!--//profile-->
-			    </div><!--//col-->
-	            <div class="col-10 col-md-auto">
-                    <div class="d-flex flex-row">
-                        <div class="me-4">
-                            <a href="#" onclick="window.print();"><i class="fa fa-print"></i></a>
-                            <input type="hidden" id="printer">
-                            <label class="custom-control-label" for="darkSwitch">Print</label>
-                        </div>
-                        <div class="d-flex flex-row">
-                            <input type="hidden" id="beforeDarkSwitch">
-                            <label class="custom-control-label me-2" for="beforeDarkSwitch"><i class="fa fa-sun"></i></label>
-                        </div>
-                        <div class="dark-mode-switch d-flex">
-                            <div class="form-check form-switch mx-auto mx-md-0">
-                                <input type="checkbox" class="form-check-input me-2" id="darkSwitch" checked/>
-                                <label class="custom-control-label" for="darkSwitch"><i class="fa fa-moon"></i></label>
-                            </div>
-                        </div><!--//dark-mode-switch-->
+<!-- ******HEADER****** -->
+<header class="header">
+    <div class="container">
+        <div class="col-12 col-md-auto">
+            <div class="d-flex flex-row justify-content-end">
+                <div class="me-3">
+                    <a class="small-btn" href="#" onclick="window.print();"><i class="fa fa-print"></i></a>
+                </div>
+                <div class="d-flex flex-row">
+                    <input type="hidden" id="beforeDarkSwitch">
+                    <label class="custom-control-label me-2" for="beforeDarkSwitch"><i class="fa fa-sun"></i></label>
+                </div>
+                <div class="dark-mode-switch d-flex">
+                    <div class="form-check form-switch mx-auto mx-md-0">
+                        <input type="checkbox" class="form-check-input me-2" id="darkSwitch" checked/>
+                        <label class="custom-control-label" for="darkSwitch"><i class="fa fa-moon"></i></label>
                     </div>
-	            </div><!--//col-->
-	        </div><!--//row-->
-        </div><!--//container-->
-    </header><!--//header-->
+                </div><!--//dark-mode-switch-->
+            </div>
+        </div><!--//col-->
+        <div class="row align-items-start">
 
-    <div class="container sections-wrapper py-5">
-        <div class="row">
-            <div class="primary col-lg-8 col-12">
-                <section class="about section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
-                            <p>Hello all. My name is Nikolay Sedov.<br />
-                            I am passionate about science, technology and continuous progress. A digital transformation
-                            is the keystone of the ongoing Fourth Industrial Revolution, bringing a higher quality
-                            of life to everybody, and I am proud to contribute to it.<br />
-                            That's what my job is all about, not just a personal profit.</p>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
+            <div class="col">
+                <img class="profile-image img-fluid float-start rounded-circle" style="width: 180px; height: auto"
+                     src="assets/images/profile.jpg" alt="profile image"/>
+                <div class="profile-content">
+                    <h1 class="name">Nikolay Sedov</h1>
+                    <h2 class="desc">Team Leader</h2>
+                    <ul class="social list-inline">
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/nikolay-sedov-16706366"><i
+                                class="fab fa-linkedin-in"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/nikolay.sedov.98"><i
+                                class="fab fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="https://twitter.com/n_a_sedov"><i
+                                class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="https://github.com/nicksedov"><i
+                                class="fab fa-github-alt"></i></a></li>
+                        <li class="list-inline-item"><a href="https://t.me/nicksedov"><i
+                                class="fab fa-telegram"></i></a></li>
+                        <li class="list-inline-item"><a href="mailto:nikolay@sedov.ydns.eu"><i
+                                class="far fa-envelope"></i></a></li>
+                    </ul>
+                </div><!--//profile-->
+            </div><!--//col-->
 
-               <section class="latest section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Latest Projects</h2>
-                        <div class="content">
-
-                            <div class="item featured text-center">
-                                <div class="featured-image has-ribbon">
-                                    <a href="https://www.sberbank.ru/ru/legal/bankingservice/spfs" target="_blank" rel="noopener">
-                                        <img class="img-fluid project-image rounded-4 shadow-sm"
-                                             src="assets/images/projects/project-spfs.jpg" alt="project name"/>
-                                    </a>
-                                    <div class="ribbon">
-                                        <div class="text">New</div>
-                                    </div>
-                                </div>
-
-                                <h3 class="title mb-3"><a href="https://www.sberbank.ru/ru/legal/bankingservice/spfs" target="_blank" rel="noopener">
-                                    Integration with Financial messaging system of the Bank of Russia</a>
-                                </h3>
-                                <div class="desc text-start">
-                                    <p>A multi-bank solution for the corporate customers. The service gives customers an ability
-                                        to exchange financial documents with any banks - participants of Financial messaging system of the Bank of Russia. 
-                                        Although created in Sberbank, the service is available for use by even those buisness customers who are not actually Sberbank clients.</p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
-                            <hr class="divider" />
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="https://www.sberbank.ru/ru/legal/sberconnect_API" target="_blank" rel="noopener">
-                                <img class="img-fluid project-image rounded-1 shadow-sm" src="assets/images/projects/project-sbc-api.jpg" alt="SberConnect API" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://www.sberbank.ru/ru/legal/sberconnect_API" target="_blank" rel="noopener">SberConnect API</a></h3>
-                                    <p class="mb-2">The financial industry is migrating towards the open standards for all communications and data exchange. The world's leading financial institutions are implementing ISO 20022 approach in their buisness processes. Meanwhile, the world's largest financial network SWIFT plans to migrate to ISO by the end of 2022, so the revolution becomes inevitable.
-                                        My current effort in Sber is to develop the cutting-edge technological platform following the worldwide trends in financial services. Once the customers would face the need for migration, they'd find Sber as a reliable partner in a world of new standards.
-                                    </p>
-                                    <p><a class="more-link" href="https://www.sberbank.ru/ru/legal/sberconnect_API" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
-
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="https://www.diasoft.ru/banks/products/flextera/" target="_blank" rel="noopener">
-                                <img class="img-fluid project-image rounded-1 shadow-sm" src="assets/images/projects/diasoft.svg" alt="Diasoft Flextera" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://www.diasoft.ru/banks/products/flextera/" target="_blank" rel="noopener">Diasoft Flextera - Fintech Platform</a></h3>
-                                    <p class="mb-2">Development of three-tier architecture based financial applications, e.g. server-side business logic and database layer design.
-                                        The domain of my responsibility included brokerage services and settlement operations</p>
-                                    <p><a class="more-link" href="https://www.diasoft.ru/banks/products/flextera/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
-
-                <section class="experience section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Work Experience</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title">Lead Developer/Team Leader - <span class="place"><a href="https://www.sber.ru">Sberbank Russia</a></span> <span class="year">(2017 - Present)</span></h3>
-                                <ul class="list-inline">
-                                    <li class="list-inline-item">
-                                        <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;FinTech</small>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;Banking</small>
-                                    </li>
-                                </ul>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Senior Software Engineer - <span class="place"><a href="https://www.sber.ru">Sberbank Russia</a></span> <span class="year">(2015 - 2017)</span></h3>
-                                <ul class="list-inline">
-                                    <li class="list-inline-item">
-                                        <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;FinTech</small>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;Banking</small>
-                                    </li>
-                                </ul>
-                            </div><!--//item-->
-
-                            <div class="item">
-                                <h3 class="title">Software Engineer (Java) - <span class="place"><a href="https://www.diasoft.ru">Diasoft</a></span> <span class="year">(2010 - 2015)</span></h3>
-                                <ul class="list-inline">
-                                    <li class="list-inline-item">
-                                        <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;FinTech</small>
-                                    </li>
-                                </ul>
-                            </div><!--//item-->
-
-                            <div class="item">
-                                <h3 class="title">Software Engineer (Java) - <span class="place"><a href="https://www.amdocs.com">Amdocs</a></span> <span class="year">(2007 - 2010)</span></h3>
-                                <ul class="list-inline">
-                                    <li class="list-inline-item">
-                                        <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;Telecommunications</small>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;Networking</small>
-                                    </li>
-                                </ul>
-                            </div><!--//item-->
-
-                            <div class="item">
-                                <h3 class="title">Software Engineer (C/C++) - <span class="place"><a href="https://www.lg.com/ru">LG Electronics</a></span> <span class="year">(2005 - 2007)</span></h3>
-                                <ul class="list-inline">
-                                    <li class="list-inline-item">
-                                        <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;Telecommunications</small>
-                                    </li>
-                                </ul>
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
-                <section class="github section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">My GitHub</h2>
-
-                        <div id="github-graph" class="github-graph">
-
-                        </div><!--//github-graph-->
-                    </div><!--//secton-inner-->
-                </section><!--//section-->
-            </div><!--//primary-->
-            <div class="secondary col-lg-4 col-12">
-                 <aside class="info aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading sr-only">Basic Information</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span><a href="https://goo.gl/maps/vG7YCx76ghFBQKhf8">Moscow, Russia</a></li>
-                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="mailto:nikolay@sedov.ydns.eu">nikolay@sedov.ydns.eu</a></li>
-                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="https://sedov.ydns.eu/cv">https://sedov.ydns.eu/cv</a></li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//aside-->
-
-                <aside class="skills aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Skills</h2>
-                        <div class="content">
-                            <p class="intro">
-                                My top skills related to current professional activity</p>
-                            <div class="skillset">
-
-                                <div class="item">
-                                    <h3 class="level-title">Software design<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
-
-                                    <div class="level-bar progress">
-									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 96%" aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></div>
-									</div><!--//level-bar-->
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">Agile project management<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar progress">
-									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 94%" aria-valuenow="94"  aria-valuemin="0" aria-valuemax="94"></div>
-									</div><!--//level-bar-->
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">DevOps<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar progress">
-									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 93%" aria-valuenow="93"  aria-valuemin="0" aria-valuemax="96"></div>
-									</div><!--//level-bar-->
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">Java & Spring<span class="level-label" data-bs-toggle="tooltip" data-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
-                                    <div class="level-bar progress">
-									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 86%" aria-valuenow="86"  aria-valuemin="0" aria-valuemax="96"></div>
-									</div><!--//level-bar-->
-                                </div><!--//item-->
-
-                                <p><a class="more-link" href="https://github.com/nicksedov"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p>
-                            </div>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-
-                <aside class="testimonials aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Testimonials</h2>
-                        <div class="content">
-                            <div class="item">
-                                <blockquote class="quote">
-                                    <p><i class="fas fa-quote-left"></i>Unlike many others, Nikolay's team is successful in making production-quality products and bringing them to market</p>
-                                </blockquote>
-                                <p class="source"><span class="name">Pavel Sedov</span><br /><span class="title">Head of business department</span></p>
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-
-                <aside class="education aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Education</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> MSc Physics</h3>
-                                <h4 class="university">St.-Petersburg State Technical University <span class="year">(2001-2003)</span></h4>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> BSc Physics</h3>
-                                <h4 class="university">St.-Petersburg State Technical University <span class="year">(1997-2001)</span></h4>
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-
-                <aside class="languages aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Languages</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li class="item">
-                                    <span class="title"><strong>Russian:</strong></span>
-                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
-                                </li><!--//item-->
-                                <li class="item">
-                                    <span class="title"><strong>English:</strong></span>
-                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
-                                </li><!--//item-->
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-
-                <aside class="list conferences aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Conferences</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="far fa-calendar-alt"></i> <a href="https://teamleadconf.ru/moscow/2022" target="_blank" rel="noopener">TeamLead Conf 2022</a> (Moscow)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="https://devopsconf.io/moscow/2019">DevOps Conf 2019</a> (Moscow)</li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-
-                <aside class="credits aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Credits</h2>
-                        <div class="content">
-                            <ul class="list-unstyled pb-2">
-                                <li><a href="https://getbootstrap.com/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i>Bootstrap</a></li>
-                                <li><a href="https://fortawesome.github.io/Font-Awesome/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i>FontAwesome</a></li>
-                                <li><a href="https://github.com/IonicaBizau/github-calendar" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i>GitHub Calendar Plugin</a></li>
-                                <li><a href="https://github.com/sdepold/vanilla-rss" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i>Vanilla RSS</a></li>
-                                <li><a href="https://github.com/coliff/dark-mode-switch"><i class="fas fa-external-link-alt"></i>Dark Mode Switch</a></li>
-
-                            </ul>
-
-                            <hr/>
-                            <p class="pt-2">This portfolio is based on a template handcrafted by UX designer <a href="https://twitter.com/3rdwave_themes" target="_blank" rel="noopener">Xiaoying Riley</a> at <a href="https://themes.3rdwavemedia.com/" target="_blank" rel="noopener">3rd Wave Media</a>.</p>
-                            <a class="btn btn-cta-primary btn-download" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-theme-for-web-developers/" target="_blank" rel="noopener"><i class="fas fa-download"></i> I want to download</a>
-                            <a class="btn btn-cta-secondary btn-follow" href="https://twitter.com/3rdwave_themes" target="_blank" rel="noopener"><i class="fab fa-twitter"></i> Follow on twitter</a>
-
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-
-            </div><!--//secondary-->
         </div><!--//row-->
-    </div><!--//masonry-->
+    </div><!--//container-->
+</header><!--//header-->
 
-    <!-- ******FOOTER****** -->
-    <footer class="footer">
-        <div class="container text-center">
-                <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank" rel="noopener">Xiaoying Riley</a> for developers</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
+<div class="container sections-wrapper py-5">
+    <div class="row">
+        <div class="primary col-lg-8 col-12">
+            <section class="about section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">About Me</h2>
+                    <div class="content">
+                        <p>Hello everybody! My name is Nikolay Sedov.<br/>
+                            I am a person passionate about science, technology and continuous progress. A digital
+                            transformation
+                            is the keystone of the ongoing Fourth Industrial Revolution, bringing a higher quality
+                            of life to everybody, and I am proud to contribute to it.<br/>
+                            That's what my job is all about, not just a personal profit.</p>
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
 
-    <!-- Javascript -->
-    <script type="text/javascript" src="assets/plugins/popper.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/vanilla-rss/dist/rss.global.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script>
-    <!-- github calendar plugin -->
-    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
+            <section class="latest section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Latest Projects</h2>
+                    <div class="content">
+
+                        <div class="item featured text-center">
+                            <div class="featured-image has-ribbon">
+                                <a href="https://www.sberbank.ru/ru/legal/bankingservice/spfs" target="_blank"
+                                   rel="noopener">
+                                    <img class="img-fluid project-image rounded-4 shadow-sm"
+                                         src="assets/images/projects/project-spfs.jpg" alt="project name"/>
+                                </a>
+                                <div class="ribbon">
+                                    <div class="text">New</div>
+                                </div>
+                            </div>
+
+                            <h3 class="title mb-3"><a href="https://www.sberbank.ru/ru/legal/bankingservice/spfs"
+                                                      target="_blank" rel="noopener">
+                                Integration with Financial messaging system of the Bank of Russia</a>
+                            </h3>
+                            <div class="desc text-start">
+                                <p>A multi-bank solution for the corporate customers. The service gives customers an
+                                    ability
+                                    to exchange financial documents with any banks - participants of Financial messaging
+                                    system of the Bank of Russia.
+                                    Although created in Sberbank, the service is available for use by even those
+                                    buisness customers who are not actually Sberbank clients.</p>
+                            </div><!--//desc-->
+                        </div><!--//item-->
+                        <hr class="divider"/>
+                        <div class="item row">
+                            <a class="col-md-4 col-12" href="https://www.sberbank.ru/ru/legal/sberconnect_API"
+                               target="_blank" rel="noopener">
+                                <img class="img-fluid project-image rounded-1 shadow-sm"
+                                     src="assets/images/projects/project-sbc-api.jpg" alt="SberConnect API"/>
+                            </a>
+                            <div class="desc col-md-8 col-12">
+                                <h3 class="title"><a href="https://www.sberbank.ru/ru/legal/sberconnect_API"
+                                                     target="_blank" rel="noopener">SberConnect API</a></h3>
+                                <p class="mb-2">The financial industry is migrating towards the open standards for all
+                                    communications and data exchange. The world's leading financial institutions are
+                                    implementing ISO 20022 approach in their buisness processes. Meanwhile, the world's
+                                    largest financial network SWIFT plans to migrate to ISO by the end of 2022, so the
+                                    revolution becomes inevitable.<br />
+                                    My current effort in Sber is to develop the cutting-edge technological platform
+                                    following the worldwide trends in financial services. Once the customers would face
+                                    the need for migration, they'd find Sber as a reliable partner in a world of new
+                                    standards.
+                                </p>
+                                <p><a class="more-link" href="https://www.sberbank.ru/ru/legal/sberconnect_API"
+                                      target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i>Find out
+                                    more</a></p>
+                            </div><!--//desc-->
+                        </div><!--//item-->
+
+                        <div class="item row">
+                            <a class="col-md-4 col-12" href="https://www.diasoft.ru/banks/products/flextera/"
+                               target="_blank" rel="noopener">
+                                <img class="img-fluid project-image rounded-1 shadow-sm"
+                                     src="assets/images/projects/diasoft.svg" alt="Diasoft Flextera"/>
+                            </a>
+                            <div class="desc col-md-8 col-12">
+                                <h3 class="title"><a href="https://www.diasoft.ru/banks/products/flextera/"
+                                                     target="_blank" rel="noopener">Diasoft Flextera - Fintech
+                                    Platform</a></h3>
+                                <p class="mb-2">Development of three-tier architecture based financial applications,
+                                    e.g. server-side business logic and database layer design.
+                                    The domain of my responsibility included brokerage services and settlement
+                                    operations</p>
+                                <p><a class="more-link" href="https://www.diasoft.ru/banks/products/flextera/"
+                                      target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i>Find out
+                                    more</a></p>
+                            </div><!--//desc-->
+                        </div><!--//item-->
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
+
+            <section class="experience section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Work Experience</h2>
+                    <div class="content">
+                        <div class="item">
+                            <h3 class="title">Team Leader - <span class="place"><a
+                                    href="https://www.sber.ru">Sberbank Russia</a></span> <span class="year">(2017 - Present)</span>
+                            </h3>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;FinTech</small>
+                                </li>
+                                <li class="list-inline-item">
+                                    <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;Banking</small>
+                                </li>
+                            </ul>
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="title">Senior Software Engineer (Java) - <span class="place"><a
+                                    href="https://www.sber.ru">Sberbank Russia</a></span> <span class="year">(2015 - 2017)</span>
+                            </h3>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;FinTech</small>
+                                </li>
+                                <li class="list-inline-item">
+                                    <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;Banking</small>
+                                </li>
+                            </ul>
+                        </div><!--//item-->
+
+                        <div class="item">
+                            <h3 class="title">Software Engineer (Java) - <span class="place"><a
+                                    href="https://www.diasoft.ru">Diasoft</a></span> <span
+                                    class="year">(2010 - 2015)</span></h3>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;FinTech</small>
+                                </li>
+                            </ul>
+                        </div><!--//item-->
+
+                        <div class="item">
+                            <h3 class="title">Software Engineer (Java) - <span class="place"><a
+                                    href="https://www.amdocs.com">Amdocs</a></span> <span
+                                    class="year">(2007 - 2010)</span></h3>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <small class="text-secondary"><i
+                                            class="fa fa-tag"></i>&nbsp;Telecommunications</small>
+                                </li>
+                                <li class="list-inline-item">
+                                    <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;Networking</small>
+                                </li>
+                            </ul>
+                        </div><!--//item-->
+
+                        <div class="item">
+                            <h3 class="title">Software Engineer (C/C++) - <span class="place"><a
+                                    href="https://www.lg.com/ru">LG Electronics</a></span> <span class="year">(2005 - 2007)</span>
+                            </h3>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <small class="text-secondary"><i
+                                            class="fa fa-tag"></i>&nbsp;Telecommunications</small>
+                                </li>
+                            </ul>
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="title">Software Engineer (C++) - <span class="place"><a
+                                    href="https://www.lg.com/ru">SoftImpact, Ltd.</a></span> <span class="year">(2005 - 2007)</span>
+                            </h3>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;Physics</small>
+                                </li>
+                                <li class="list-inline-item">
+                                    <small class="text-secondary"><i class="fa fa-tag"></i>&nbsp;Numerical
+                                        modelling</small>
+                                </li>
+                            </ul>
+                        </div><!--//item-->
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
+            <section class="github section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">My GitHub</h2>
+
+                    <div id="github-graph" class="github-graph">
+
+                    </div><!--//github-graph-->
+                </div><!--//secton-inner-->
+            </section><!--//section-->
+        </div><!--//primary-->
+        <div class="secondary col-lg-4 col-12">
+            <aside class="info aside section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading sr-only">Basic Information</h2>
+                    <div class="content">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span><a
+                                    href="https://goo.gl/maps/vG7YCx76ghFBQKhf8">Moscow, Russia</a></li>
+                            <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a
+                                    href="mailto:nikolay@sedov.ydns.eu">nikolay@sedov.ydns.eu</a></li>
+                            <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a
+                                    href="https://sedov.ydns.eu/cv">https://sedov.ydns.eu/cv</a></li>
+                        </ul>
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//aside-->
+
+            <aside class="skills aside section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Skills</h2>
+                    <div class="content">
+                        <p class="intro">
+                            My top skills related to current professional activity</p>
+                        <div class="skillset">
+
+                            <div class="item">
+                                <h3 class="level-title">Software design<span class="level-label"
+                                                                             data-bs-toggle="tooltip"
+                                                                             data-bs-placement="left"
+                                                                             title="Software design"><i
+                                        class="fas fa-info-circle"></i>Expert</span></h3>
+
+                                <div class="level-bar progress">
+                                    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 96%"
+                                         aria-valuenow="96" aria-valuemin="0" aria-valuemax="96"></div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">Agile project management<span class="level-label"
+                                                                                      data-bs-toggle="tooltip"
+                                                                                      data-bs-placement="left"
+                                                                                      title="Agile project management"><i
+                                        class="fas fa-info-circle"></i>Expert</span></h3>
+                                <div class="level-bar progress">
+                                    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 94%"
+                                         aria-valuenow="94" aria-valuemin="0" aria-valuemax="94"></div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">DevOps<span class="level-label" data-bs-toggle="tooltip"
+                                                                    data-bs-placement="left"
+                                                                    title="DevOps"><i
+                                        class="fas fa-info-circle"></i>Expert</span></h3>
+                                <div class="level-bar progress">
+                                    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 93%"
+                                         aria-valuenow="93" aria-valuemin="0" aria-valuemax="96"></div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">Java & Spring<span class="level-label" data-bs-toggle="tooltip"
+                                                                           data-placement="left"
+                                                                           title="Java & Spring"><i
+                                        class="fas fa-info-circle"></i>Pro</span></h3>
+                                <div class="level-bar progress">
+                                    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 86%"
+                                         aria-valuenow="86" aria-valuemin="0" aria-valuemax="96"></div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <p><a class="more-link" href="https://github.com/nicksedov"><i
+                                    class="fas fa-external-link-alt"></i>More on GitHub</a></p>
+                        </div>
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+            <aside class="testimonials aside section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Testimonials</h2>
+                    <div class="content">
+                        <div class="item">
+                            <blockquote class="quote">
+                                <p><i class="fas fa-quote-left"></i>Unlike many others, Nikolay's team is successful in
+                                    making production-quality products and bringing them to market</p>
+                            </blockquote>
+                            <p class="source"><span class="name">Pavel Sedov</span><br/><span class="title">Head of business department</span>
+                            </p>
+                        </div><!--//item-->
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+            <aside class="education aside section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Education</h2>
+                    <div class="content">
+                        <div class="item">
+                            <h3 class="title"><i class="fas fa-graduation-cap"></i> MSc Physics</h3>
+                            <h4 class="university">St.-Petersburg State Technical University <span class="year">(2001-2003)</span>
+                            </h4>
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="title"><i class="fas fa-graduation-cap"></i> BSc Physics</h3>
+                            <h4 class="university">St.-Petersburg State Technical University <span class="year">(1997-2001)</span>
+                            </h4>
+                        </div><!--//item-->
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+            <aside class="languages aside section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Languages</h2>
+                    <div class="content">
+                        <ul class="list-unstyled">
+                            <li class="item">
+                                <span class="title"><strong>Russian:</strong></span>
+                                <span class="level">Native Speaker <br class="visible-xs"/><i
+                                        class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                                        class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                            </li><!--//item-->
+                            <li class="item">
+                                <span class="title"><strong>English:</strong></span>
+                                <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i
+                                        class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                                        class="fas fa-star-half"></i></span>
+                            </li><!--//item-->
+                        </ul>
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+            <aside class="list conferences aside section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Conferences</h2>
+                    <div class="content">
+                        <ul class="list-unstyled">
+                            <li><i class="far fa-calendar-alt"></i> <a href="https://teamleadconf.ru/moscow/2022"
+                                                                       target="_blank" rel="noopener">TeamLead Conf
+                                2022</a> (Moscow)
+                            </li>
+                            <li><i class="far fa-calendar-alt"></i> <a href="https://devopsconf.io/moscow/2019">DevOps
+                                Conf 2019</a> (Moscow)
+                            </li>
+                        </ul>
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+            <aside class="credits aside section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Credits</h2>
+                    <div class="content">
+                        <ul class="list-unstyled pb-2">
+                            <li><a href="https://getbootstrap.com/" target="_blank" rel="noopener"><i
+                                    class="fas fa-external-link-alt"></i>Bootstrap</a></li>
+                            <li><a href="https://fortawesome.github.io/Font-Awesome/" target="_blank" rel="noopener"><i
+                                    class="fas fa-external-link-alt"></i>FontAwesome</a></li>
+                            <li><a href="https://github.com/IonicaBizau/github-calendar" target="_blank" rel="noopener"><i
+                                    class="fas fa-external-link-alt"></i>GitHub Calendar Plugin</a></li>
+                            <li><a href="https://github.com/sdepold/vanilla-rss" target="_blank" rel="noopener"><i
+                                    class="fas fa-external-link-alt"></i>Vanilla RSS</a></li>
+                            <li><a href="https://github.com/coliff/dark-mode-switch"><i
+                                    class="fas fa-external-link-alt"></i>Dark Mode Switch</a></li>
+
+                        </ul>
+
+                        <hr/>
+                        <p class="pt-2">This portfolio is based on a template handcrafted by UX designer <a
+                                href="https://twitter.com/3rdwave_themes" target="_blank" rel="noopener">Xiaoying
+                            Riley</a> at <a href="https://themes.3rdwavemedia.com/" target="_blank" rel="noopener">3rd
+                            Wave Media</a>.</p>
+                        <a class="btn btn-cta-primary btn-download"
+                           href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-theme-for-web-developers/"
+                           target="_blank" rel="noopener"><i class="fas fa-download"></i> I want to download</a>
+                        <a class="btn btn-cta-secondary btn-follow" href="https://twitter.com/3rdwave_themes"
+                           target="_blank" rel="noopener"><i class="fab fa-twitter"></i> Follow on twitter</a>
+
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+        </div><!--//secondary-->
+    </div><!--//row-->
+</div><!--//masonry-->
+
+<!-- ******FOOTER****** -->
+<footer class="footer">
+    <div class="container text-center">
+        <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+        <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a
+                href="https://themes.3rdwavemedia.com" target="_blank" rel="noopener">Xiaoying Riley</a> for developers</small>
+    </div><!--//container-->
+</footer><!--//footer-->
+
+<!-- Javascript -->
+<script type="text/javascript" src="assets/plugins/popper.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/plugins/vanilla-rss/dist/rss.global.min.js"></script>
+<script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script>
+<!-- github calendar plugin -->
+<script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+<!-- custom js -->
+<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
 
